@@ -1,0 +1,20 @@
+React > public > index.html
+
+각 파일에서 다른 파일을 import(호출과 비슷) 하는 형식.
+Index.html >> index.js >> App.js >> MyCom.js
+
+App.js, MyCom.js 파일에는 function(보통 파일 이름과 똑같이 설정함)이 존재.
+
+Function 함수이름() {
+	return (
+		태그 1개만 존재(이 태그 하위에는 여러 개 존재 가능)
+		: fragment tag <> ... </> 사용하여 전체 태그를 1개로 묶어주기도 함.
+			: Hello.js 파일 참고
+	);
+}
+
+
+
+<div className='~~'>
+클래스를 따로 정의하지 않고 className을 부여해서 클래스로 지정.
+.css 파일에서 .~~ {} 으로 스타일 지정 가능
