@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css'; // js에서 css 추가하는 방법
-// import Hello from './01/Hello'; // Hello.js 불러오기
-import MyDiv from './02/MyDiv';
-import CardMain from './03/CardMain';
+import Hello from './01/Hello'; // Hello.js 불러오기
+// import MyDiv from './02/MyDiv';
+// import CardMain from './03/CardMain';
 
 import { RiHome2Line } from "react-icons/ri"; //홈아이콘 삽입
 
@@ -24,9 +24,9 @@ function App() {
         {/* <div className="App-header"> */}
         <div className="w-full grow
                     flex flex-col justify-center items-center">
-          {/* <Hello /> */}
+          <Hello />
           {/* <MyDiv /> */}
-          <CardMain />
+          {/* <CardMain /> */}
         </div>
         <footer className='w-full h-16
                         flex justify-center items-center
