@@ -1,9 +1,14 @@
+240709
+
 React > public > index.html
 
 각 파일에서 다른 파일을 import(호출과 비슷) 하는 형식.
 Index.html >> index.js >> App.js >> MyCom.js
 
 App.js, MyCom.js 파일에는 function(보통 파일 이름과 똑같이 설정함)이 존재.
+
+
+---
 
 Function 함수이름() {
 	return (
@@ -12,12 +17,25 @@ Function 함수이름() {
 			: Hello.js 파일 참고
 	);
 }
+Export default 함수이름 ;  //함수이름 뒤에 괄호는 없어야 함
+
+---
 
 
 
-<div className='~~'>
+<div className='~~'> : MyApp.js, MyApp.css 참고
 클래스를 따로 정의하지 않고 className을 부여해서 클래스로 지정.
 .css 파일에서 .~~ {} 으로 스타일 지정 가능
+
+<div className='align-center p-2 ... '> : MyDiv.js 참고
+클래스 이름을 정의하지 않고 바로 스타일 지정.
+.css 파일을 별도로 만들지 않는 형태. css와 명령어가 살짝 다름.
+
+
+* 
+App >> MyDiv >> MyDiv2 >> MyDiv3
+MyDiv에서 정의된 변수를 자식에게 전달하는 방법 : probs
+div 태그에 속성을 만들어서 달 수 있음.
 
 
 
