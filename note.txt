@@ -27,3 +27,14 @@ Function 함수이름() {
 
 <tailwind css>
 setinterval()
+
+<open API 사용하기>
+변수명 참고
+http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+
+영화진흥위원회 순위 API
+https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?
+key=13ee205a9a8ce8a2935a0c54ad381455 : 내가 받은 key
+&targetDt=20240709 : 날짜
+
+.env 파일에 위 주소 환경변수로 넣기(git에 업로드한 다음 공개되지 않게 하기 위해)

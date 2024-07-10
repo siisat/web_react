@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css'; // js에서 css 추가하는 방법
-import Hello from './01/Hello'; // Hello.js 불러오기
+// import Hello from './01/Hello'; // Hello.js 불러오기
 // import MyDiv from './02/MyDiv';
 // import CardMain from './03/CardMain';
+import BoxOffice from './04/BoxOffice';
 
 import { RiHome2Line } from "react-icons/ri"; //홈아이콘 삽입
 
@@ -14,20 +15,23 @@ function App() {
                       h-full'>
         {/* md : 반응형으로 넓이 조절하기. md는 특정 픽셀보다 커지면, w-4/5는 그때의 크기를 지정하는 것 */}
         <header className='w-full h-16 bg-blue-200
-                          flex justify-between
+                          flex justify-between items-center
                           p-5 text-gray-700'>
           <h1 className='font-bold'>리액트 실습</h1>
           <div>
             <RiHome2Line />
           </div>
         </header>
+
         {/* <div className="App-header"> */}
         <div className="w-full grow
                     flex flex-col justify-center items-center">
-          <Hello />
+          {/* <Hello /> */}
           {/* <MyDiv /> */}
           {/* <CardMain /> */}
+          <BoxOffice />
         </div>
+
         <footer className='w-full h-16
                         flex justify-center items-center
                         '>
