@@ -33,9 +33,8 @@ function App() {
         </div>
 
         <footer className='w-full h-16
-                        flex justify-center items-center
-                        '>
-          <p className='font-sm font-bold'>2024 여름 소프트웨어융합기초</p>
+                        flex justify-center items-center'>
+          {/* <p className='font-sm'>2024 여름 소프트웨어융합기초</p> */}
         </footer>
       </main>
     </div>

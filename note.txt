@@ -56,3 +56,26 @@ key=13ee205a9a8ce8a2935a0c54ad381455 : 내가 받은 key
 &targetDt=20240709 : 날짜
 
 .env 파일에 위 주소 환경변수로 넣기(git에 업로드한 다음 공개되지 않게 하기 위해)
+**환경변수 이름은 항상 REACT_APP_ 으로 시작해야 함
+
+
+
+---
+240711
+*useEffect( ()=>{} );
+
+
+useEffect(함수 );
+
+useEffect(함수, []);  : 프로그램이 처음 실행될 때 한 번만 실행
+
+useEffect(함수, [state 변수]);  : 변수값이 변할 때마다 실행
+
+
+
+클릭 등 새로운 동작이 발생했을 때 화면이 바뀌도록 하려면 state 변수를 이용해야 함.
+const [변수명, 변수를 바꿀 함수명] = useState([]);
+
+
+구글에 tailwind date, tailwind table 등 검색하면
+flowbite 사이트에 게시된 레이아웃 코드 나옴.

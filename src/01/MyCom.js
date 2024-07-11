@@ -21,6 +21,7 @@ function MyCom() {
         const timer = setInterval(()=>{
             setTm(new Date());
         }, 1000);
+        // 1000 : 1000ms == 1초에 한 번씩 setTm을 실행하라
 
         return (()=>{
             clearInterval(timer);
