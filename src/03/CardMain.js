@@ -1,5 +1,5 @@
 // rfc 입력하고 Tab키 눌러서 자동완성
-import Card from "./Card";
+import Card from './Card';
 import CData from './CardData.json';
 
 export default function CardMain() {
