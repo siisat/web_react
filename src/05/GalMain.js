@@ -49,7 +49,7 @@ export default function GalMain() {
     }, [tdata]);
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col h-full'>
             <form className="w-full flex m-5">
                 <input type='text' id='txt1' 
                        ref={inRef}
